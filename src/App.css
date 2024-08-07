@@ -1,0 +1,214 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+header, footer {
+  background-color: black;
+  height: 100px;
+}
+
+main {
+  margin: 80px 0;
+  h1 {
+    text-align: center;
+    font-family: Lighthaus;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 37.45px;
+    text-align: center;    
+  }
+
+  .products {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+    gap: 31px;
+    margin: 46px 0 80px 0;
+
+    .list {
+        width: 300px;
+        /* overflow: hidden; */
+        position: relative;
+      img {
+        width: 300px;
+      }
+    }
+  }
+
+  .sale {
+    background-color: #e6e6e6;
+    padding: 80px 0;
+
+    h1 {
+        margin: 0 0 46px 0;
+    }
+
+    .sale_product {
+      display: flex;
+      justify-content: center;
+      gap: 34px;
+
+        .sale_list {
+          position: relative;
+          img {
+            width: 300px;
+          }
+          .like {
+            background-color: #fff;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            padding: 5px 5px 1px 5px;
+            img {
+              width: 20px;
+            }
+          }
+          .bottom {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 26px;
+            margin-bottom: 50px;
+
+            p {
+              width: 200px;
+              font-family: Mont;
+              font-size: 20px;
+              font-weight: 100;
+              line-height: 19.28px;
+              text-align: left;              
+            }
+            span {
+              font-family: Mont;
+              font-size: 25px;
+              font-weight: 700;
+              line-height: 28.92px;
+              margin-top: 13px;
+            }
+          }
+        }
+    }
+
+    .buttonCen {
+      display: flex;
+      justify-content: center;
+      button {
+        padding: 10px 35px;
+        background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+        color: #ffffff;
+        font-size: 18px;
+        border: 0;
+      }
+    }
+  }
+  .sales {
+    background-color: #ffffff;
+    padding: 80px 0;
+
+    h1 {
+        margin: 0 0 46px 0;
+    }
+
+    .sale_product {
+      display: flex;
+      justify-content: center;
+      gap: 34px;
+
+        .sale_list {
+          position: relative;
+          img {
+            width: 300px;
+          }
+          .like {
+            background-color: #fff;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            padding: 5px 5px 1px 5px;
+            img {
+              width: 20px;
+            }
+          }
+          .bottom {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 26px;
+            margin-bottom: 50px;
+
+            p {
+              width: 200px;
+              font-family: Mont;
+              font-size: 20px;
+              font-weight: 100;
+              line-height: 19.28px;
+              text-align: left;              
+            }
+            span {
+              font-family: Mont;
+              font-size: 25px;
+              font-weight: 700;
+              line-height: 28.92px;
+              margin-top: 13px;
+              color: #9B0000;
+            }
+          }
+        }
+    }
+
+    .buttonCen {
+      display: flex;
+      justify-content: center;
+      button {
+        padding: 10px 35px;
+        background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+        color: #ffffff;
+        font-size: 18px;
+        border: 0;
+      }
+    }
+  }
+
+  .baner {
+      background: url('/public/BG.png') no-repeat center / cover;
+      width: 100%;
+      height: 485px;
+      display: flex;
+      align-items: center;
+
+      h2 {
+        font-family: Lighthaus;
+        font-size: 100px;
+        font-weight: 100;
+        line-height: 104.86px;
+        text-align: left;
+        color: #ffffff;
+      }
+
+      p {
+        font-family: Mont;
+        font-size: 35px;
+        font-weight: 100;
+        line-height: 33.74px;
+        text-align: left;
+        width: 450px;        
+        color: #ffffff;
+        margin: 50px 0;
+      }
+
+      button {
+        padding: 10px 35px;
+        background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+        color: #ffffff;
+        font-size: 18px;
+        border: 0;
+      }
+  }
+}
+
+
